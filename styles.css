@@ -1,0 +1,51 @@
+.container {
+    display: block;
+    width: 100%;
+    margin: auto;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.box {
+    width: 100%;
+}
+
+.box div {
+    float: left;
+}
+
+.column-100 {
+    width: 100%;
+}
+
+.column-70 {
+    width: 69%;
+}
+
+.column-30 {
+    width: 30%;
+}
+
+img {
+    width: auto;
+    height: 120px;
+    padding: 15px;
+}
+
+.column-right-align {
+    text-align: right;
+}
+
+.column-center-align {
+    text-align: center;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        width: 1000px;
+    }
+}
